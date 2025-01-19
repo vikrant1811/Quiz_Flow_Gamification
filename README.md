@@ -1,6 +1,41 @@
 # quiz_flow_gamification
 
-A new Flutter project.
+This Flutter-based Quiz App incorporates engaging gamification elements to enhance the user experience and motivation while taking quizzes. The key features include:
+
+1.Dynamic Scoring System:
+Earn points for correct answers (+4 points).
+Lose points for incorrect answers (-1 point), encouraging accuracy.
+
+2.Lives System:
+Users start with 5 lives.
+Each incorrect answer deducts one life.
+The quiz ends automatically if all lives are lost, reinforcing the stakes and urgency in decision-making.
+
+3.Progress Tracking:
+Displays real-time stats, including:
+Lives remaining.
+Mistakes made.
+Total score achieved.
+These stats are presented in an interactive dashboard using Stat Cards.
+
+4.Shuffled Questions:
+Questions can be shuffled to add variety and unpredictability to the quiz experience.
+
+5.Answer Feedback:
+Option to reveal the correct answers after submission, allowing users to learn from their mistakes.
+
+6.Quiz Completion Dialog:
+A celebratory pop-up at the end of the quiz shows:
+Final score.
+Total correct and incorrect answers.
+This reinforces a sense of achievement for users.
+
+7.User Interface:
+Clean and visually appealing design with gradients, responsive layouts, and animations.
+Gamified elements are highlighted using vibrant color codes (e.g., red for lives, green for score).
+
+8.Automatic Quiz Submission:
+If the user runs out of lives, the app automatically submits the quiz and displays the results.
 
 ## Getting Started
 
